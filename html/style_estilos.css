@@ -1,0 +1,41 @@
+/* importar tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* selector de etiqueta*/
+a{
+    margin-left: 30px;
+    color: orange;
+}
+
+#option_one{
+    color: blue;
+}
+
+#option_two{
+    color: rgb(143, 143, 22);
+}
+
+.group_options{
+    background-color: rgb(114, 114, 90);
+    margin-top: 5px;
+}
+
+/* selector por pseudo clase*/
+.group_options:hover{
+    background-color: yellow;
+    color: black;
+}
+[disabled]{
+    background-color: red;
+}
+
+/* selector descendentes */
+#papa{
+    border: 2px solid red;
+    border-radius: 10px;
+}
