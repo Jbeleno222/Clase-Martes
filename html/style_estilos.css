@@ -39,3 +39,69 @@ a{
     border: 2px solid red;
     border-radius: 10px;
 }
+#papa .hermanos + .hermanos{
+    color: aqua;
+}
+#papa > #etiqueta > a{
+    color: burlywood;
+}
+
+/* titulo para box model*/
+#title_box{
+    color: #a92f4f;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  aqua;
+    text-align: center;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+    margin: 20px 0;
+    border: 1px dashed #000;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px 1px #008000;
+    box-shadow: 0px 0px 10px 1px #ff00ff;
+    -webkit-box-shadow: 0px 0px 10px 1px #ff00ff;
+    -moz-box-shadow: 0px 0px 10px 1px #ff00ff;
+    font-size: 40px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-transform: lowercase;      
+}
+
+#box_father{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+}
+
+#box_model{
+    width: 50%;
+    height: 100px;
+    background-color: orange;
+    margin: 0 auto;
+    background-image: url(https://img.freepik.com/vector-gratis/lindo-pinguino-volando-globos-ilustracion-vectorial-dibujos-animados-vector-aislado-concepto-amor-animal-estilo-dibujos-animados-plana_138676-2016.jpg?q=10&h=200);
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    body{
+        background-color: red;
+
+    }
+    h1{
+        text-align: center;
+        color: #008000;
+        background-color: #fff;
+    }
+}
+@media (max-width: 799px){
+
+    body{
+        background-image:  url(https://img.freepik.com/vector-gratis/lindo-pinguino-volando-globos-ilustracion-vectorial-dibujos-animados-vector-aislado-concepto-amor-animal-estilo-dibujos-animados-plana_138676-2016.jpg?q=10&h=200);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
