@@ -5,31 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Clase</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style_login.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu-horizontal">
-            <li><a href="#">Inicio</a></li>
-            <li>
-                <a href="#">Tablas</a>
-                <ul class="menu-vertical">
-                    <li><a href="/html/tablas/tabla_1.html">Tabla 1</a></li>
-                    <li><a href="/html/tablas/tabla_2.html">Tabla 2</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Inicio de Sesion</a>
-                <ul class="menu-vertical">
-                    <li><a href="/html/formularios/formulario.html">Iniciar Sesion</a></li>
-                </ul>
-            </li>
-            <li><a href="/html/multimedia/multimedia.html">Multimedia</a></li>
-
-            <li><a href="/html/estilos.html">Ir a estilos</a></li>
-            <li><a href="/flexbox.html">Ir a flexbox</a></li>
-
-        </ul>
-    </nav>
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+                <img src="https://img.freepik.com/vector-gratis/lindo-astronauta-montando-cohete-agitando-mano-icono-dibujos-animados-ilustracion-concepto-icono-tecnologia-ciencia_138676-2130.jpg" alt="astronauta" class="login">
+                <h1>iniciar sesion</h1>
+            </div>
+            <div class="text_field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su Email" aria-label="email" required>
+                <img src="https://www.svgrepo.com/show/61043/empty-email.svg" alt="email">
+            </div>
+            <div class="text_field">
+                <label for="password">Email</label>
+                <input type="password" id="password" name="password" placeholder="Ingrese su password" aria-label="password" required>
+                <img src="https://www.svgrepo.com/show/84319/password.svg" alt="password">
+            </div>
+            <input type="submit" value="login" class="my_form_bottom">
+            <div class="my_form_actions">
+                <div class="my_form_actions">
+                    <span>¿olvidaste tu contraseña?</span>
+                    <a href="#" title="recuperar contraseña">Recuperar contraseña</a>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Crear cuenta">crear cuenta</a>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
